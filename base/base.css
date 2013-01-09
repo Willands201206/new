@@ -1,0 +1,628 @@
+﻿・*追加css*/s
+
+.topguide {
+padding: 3px 15px 3px 17px;
+}
+
+.a{
+	padding-left: 11px;
+	padding-right: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border:0;
+}
+
+.yotei {
+width: 730px;
+height:450px;
+line-height:5px;
+padding-left:30px;
+padding-bottom:30px;
+}
+
+.calendar{
+	width: 355px;
+	float: left;
+	padding-left:20px;
+	margin-top:17px;
+	padding-bottom:15px;
+	background-image:url('../topimg/clndr_day_back.png');
+}
+
+
+.cld_setsumei{
+	width:325px;
+	padding-left:10px;
+	padding-top:10px;
+	float:left;
+}
+
+.calendar_day1{
+	padding-left: 6px;
+	padding-top: 12px;
+	font-size: 1.3em;
+	font-family: "Vivaldi","Vladimir script","Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	color: #002B00;
+}
+
+.calendar_week1{
+	height: 45px;
+	width: 45px;
+	font-size: 1.3em;
+	padding-top: 20px;
+	font-family: HGP明朝E, sans-serif;
+	color: #603F3B;
+/*	font-weight: bold;*/
+}
+
+
+//.calendar_year1{
+//width:50px;
+//height:30px;
+//padding-left: 20px;
+//float:left;	
+//	}
+//.calendar_month1{
+//width:100px;
+//height:30px;
+//padding-left: 20px;
+	
+//	}
+//.calendar_link1{
+//height:30px;
+//width:50px;
+//padding-left: 20px;
+//	}
+
+
+.sotowaku1{
+	
+	
+	}
+
+.back1_1 {
+background-image:url('../topimg/krn_1-45.gif');
+}
+              
+.back2_1 {
+background-image:url('../topimg/krn_2-45.gif');
+
+}
+.back3_1 {
+background-image:url('../topimg/krn_3-45.gif');
+
+}
+
+.back4_1 {
+background-image:url('../topimg/krn_4-45.gif');
+
+}
+
+.back5_1 {
+background-image:url('../topimg/krn_5-45.gif');
+
+}
+
+.back6_1 {
+background-image:url('../topimg/krn_6-45.gif');
+}
+
+.back7_1 {
+background-color:white
+
+}
+
+.back8_1 {
+background-image:url('../topimg/krn_8-45.gif');
+}
+
+.back9_1 {
+background-image:url('../topimg/krn_9-45.gif');
+}
+
+
+.back1_2 {
+background-image:url('../common/55x55/krn_1-55.gif');
+
+}
+              
+.back2_2 {
+background-image:url('../common/55x55/krn_2-55.gif');
+
+}
+.back3_2 {
+background-image:url('../common/55x55/krn_3-55.gif');
+
+}
+
+.back4_2 {
+background-image:url('../common/55x55/krn_4-55.gif');
+
+}
+
+.back5_2 {
+background-image:url('../common/55x55/krn_5-55.gif');
+
+}
+
+.back6_2 {
+background-image:url('../common/55x55/krn_6-55.gif');
+
+}
+
+.back7_2 {
+background-color:white
+
+}
+
+
+//休館日/特別展/絵はがき/イベント/特別展＆絵はがき/特別展＆イベント/なし（なしは共通）
+
+
+.sotowaku1 {
+
+width: 347px;
+
+padding-left:30px;
+}
+
+
+.year1{
+	font-family:HGP明朝E, sans-serif;
+	color: #603F3B;
+	height: 30px;
+	width: 325px;
+	}
+
+
+.year_left1{
+	padding-top:30px;
+	text-align:right;
+	width: 200px;
+	height: 30px;
+	float:left;
+}
+.month1{
+font-size:2.3em;
+
+	}
+
+.year_right1{
+	padding-top:35px;	
+	text-align:right;
+//	width: 125px;
+//	height: 30px;
+}
+
+.link1{
+/*	background:red; */
+}
+
+//.year1_right{
+//	width:100px;
+//	height: 30px;
+//	clear:both;
+//}
+
+.column_other1 {
+
+}
+
+.column_first1 {
+clear:both;
+}
+
+.column_other1, .column_first1 {
+width: 45px;
+height:45px;
+border: 1px solid #AD918C;
+float:left;
+}
+
+
+
+
+/*.column_week1 {
+}
+
+
+.column_sun1 {
+clear:both;
+}
+
+.column_week1, .column_sun1 {
+float:left;
+width: 45px;
+height: 45px;
+text-align: center;
+}
+*/
+
+.column_week1{
+	float: left;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	padding-left: 2px;
+}
+
+.column_sun1 {
+clear:both;
+float:left;
+width: 45px;
+height: 45px;
+text-align: center;
+}
+
+
+
+*{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+
+
+ul.menu1 li{
+	float:left;
+	width:44px;
+	height:44px;
+	//background:url("images/btn.png");
+//background-color:powderblue;
+	position:relative;
+}
+ul.menu1 li a{
+	display:block;
+	width:100%;
+	height:100%;
+	//font-weight:bold;
+	color:black;
+	text-decoration:none;
+}
+ul.menu1 li a:hover{
+	//background:url("images/btn_over.png");
+}
+ul.menu1 li ul.sub1{
+	position:absolute;
+}
+
+ul.sub1 li{
+	width:110px;
+	height:20px;
+	background-color:#99cc00;
+	border:3px;
+	border-left-color:#99cc99;
+	border-top-color:#99cc99;
+	border-bottom-color:#999966;
+	border-right-color:#999966;
+}
+
+ul.sub1 li a{
+	color:white;
+	
+}
+
+.gyoji1{
+height:20px;
+position:absolute;
+top:50%;
+}
+
+
+
+
+ul.menu1{
+	zoom:1;
+}
+ul.menu1:after {
+	height:0;
+	visibility:hidden;
+	content:".";
+	display:block;
+	clear:both;
+}
+
+.icon1{
+height:30px;
+padding-left:30px;	
+font-weight: bold;
+font-size: large;
+vertical-align: middle;
+float: left;
+width: 50px;
+clear: left;
+
+}
+
+.guide1{
+	line-height:30px;
+	vertical-align:middle;
+	float:left;
+	width:auto;
+	
+}
+
+
+<!--ご案内ページのCSS-->
+.year2{
+	font-family:HGP明朝E, sans-serif;
+	color: #603F3B;
+	height: 30px;
+	width: 325px;
+	//background:lime; 
+	}
+
+
+.year_left2{
+	padding-top:30px;
+	text-align:left;
+	width: 200px;
+	height: 30px;
+	float:left;
+
+}
+.month2{
+font-size:2.3em;
+
+	}
+
+
+
+.sotowaku2 {
+width: 505px;
+height:420px;
+}
+
+
+
+.column_other2 {
+
+}
+
+.column_first2 {
+clear:both;
+
+}
+
+.column_other2,  .column_first2 {
+float: left;
+width: 55px;
+height:55px;
+border: 1px solid;
+
+}
+
+.column_week2 {
+	float: left;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	padding-left: 2px;
+}
+
+
+.column_sun2 {
+clear:both;
+
+}
+
+.column_week2, .column_sun2 {
+float:left;
+width: 55px;
+height: 20px;
+text-align: center;
+vertical-align: bottom;
+
+}
+
+ul.menu2 li{
+	float:left;
+	width:54px;
+	height:54px;
+	//background:url("images/btn.png");
+//background-color:powderblue;
+	position:relative;
+}
+ul.menu2 li a{
+	display:block;
+//	width:100%;
+//	height:100%;
+	font-weight:bold;
+	color:black;
+	text-decoration:none;
+}
+ul.menu2 li a:hover{
+	//background:url("images/btn_over.png");
+}
+ul.menu2 li ul.sub2{
+	//width:300px;
+	position:absolute;
+}
+
+ul.sub2 li{
+	width:110px;
+	height:20px;
+	background-color:#99cc00;
+	border:3px;
+	border-left-color:#99cc99;
+	border-top-color:#99cc99;
+	border-bottom-color:#999966;
+	border-right-color:#999966;
+}
+
+ul.sub2 li a{
+	color:white;
+	
+}
+
+
+ul.menu2{
+	zoom:1;
+}
+ul.menu2:after2 {
+	height:0;
+	visibility:hidden;
+	content:".";
+	display:block;
+	clear:both;
+
+}
+.icon2{
+	width:30px;
+	float:left;
+	margin-left;40px;
+}
+
+/*追加css終了*/
+
+
+
+
+
+
+
+
+/* 基本タグの定義 */
+body,html{
+	margin: 0;
+	padding: 0;
+	background-image: url('../common/body_bg.gif');
+	color: #000000;
+	scrollbar-arrow-color:#f6e9d5;
+	scrollbar-face-color:#663333;
+	scrollbar-shadow-color:#f6e9d5;
+	scrollbar-track-color:#f6e9d5;
+
+}
+a:visited {}
+a:link {
+	color: #006600;}
+a:hover {
+	color: #74AF72;
+}
+a:active {
+	color: #006600;}
+form {
+	margin: 0;
+	padding: 0}
+table {
+	border-collapse: collapse}
+h1, h2 ,h3, h4, h5, p {
+	margin: 0;
+	padding: 0}
+h1 {
+	margin: 0}
+h2 {
+	margin-bottom: 15px}
+h3 {
+	margin-bottom: 10px;
+	margin-left: 20px}
+h4 {
+	font-size:1em;
+	font-weight:bold;
+	margin-bottom:4px;
+	}
+p {
+	width: 485px;
+	font-size: 0.875em;
+	line-height:135%;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	color:#333333}
+
+/* レイアウト領域 */
+#wrapper {
+	width: 760px;
+	margin-left: auto;
+	margin-right: auto}
+#header {}
+#main {
+	background-image: url('common/main_bg.gif');
+	background-repeat: repeat-y
+}
+#menu {
+	width: 180px;
+	background-color: #F9F9F0;
+	background-image: url('common/menu_bg.jpg');
+	background-repeat: no-repeat;
+	text-align: right;
+	vertical-align: top
+}
+#menu div.padding {
+	margin-right: 18px;
+	margin-top: 9px}
+#menu div.padding img {
+	margin-bottom: 5px}
+#contents {
+	width: 580px;
+	background-color: #FFFFFF;
+	vertical-align: top}
+#contents div.padding {
+	padding-left: 15px;
+	padding-right: 15px}
+#content {
+	margin-left: 45px;
+	width: 505px}
+#kobanashi {
+	font-size: 0.75em;
+	line-height: 130%;
+	margin-top:30px;
+	}
+#footer {}
+
+/* 装飾関係 */
+.main_image {
+	text-align: right;
+	margin-bottom: 20px
+	}
+	
+.end_parag {
+	margin-bottom: 30px
+	}
+
+table.hyo {
+	border-collapse: separate;
+	margin-left: 5px;
+	}
+	
+
+table.hyo th {
+	text-align: left;
+	font-size: 0.875em;
+	vertical-align: top;
+	color: #A28200;
+	padding: 5px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	border-left: #A28200 solid 5px;
+	white-space: nowrap
+	}
+	
+table.hyo td {
+	font-size: 0.875em;
+	line-height:130%;
+	padding: 5px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	color:#333333
+	}
+	
+.img_left {
+	float: left;
+	margin: 0px 10px 10px 0px }
+
+.img_right {
+	float: right;
+	margin: 0px 0px 10px 10px }
+	
+.color {
+	color:#CC0000;
+	}
+	
+.to_top {
+	float: left;
+	text-align: right;
+	margin:7px 0 13px 0;
+	font-size:0.875em;
+	}

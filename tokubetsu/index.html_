@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>有馬切手文化博物館 特別展のご案内</title>
+<!-- InstanceEndEditable -->
+<meta name="keywords" content="有馬切手文化博物館,切手,有馬,有馬温泉,神戸,称徳館,馬事文化博物館,普通切手,記念切手,神戸消印" />
+<meta http-equiv="imagetoolbar" content="false" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<link rel="stylesheet" href="../base/base.css" type="text/css" media="all" />
+<script language="JavaScript" type="text/JavaScript" src="../base/base.js"></script>
+<!-- InstanceBeginEditable name="head" -->
+<style type="text/css">
+<!--
+.line {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+
+h4 {
+	font-size: 0.875em;
+	font-weight: bolder;
+	color:#A28200;
+	margin-left:20px;
+	margin-top:20px;
+}
+
+ol{
+	margin-top:5px;
+	margin-left:50px;
+	margin-bottom:5px;
+	font-size:0.875em;
+	line-height:135%;
+	}
+li {
+	margin-bottom: 5px;
+}
+
+.font_large{
+	font-size:large;
+}
+
+table.hyo1 {
+	border:1px solid #CCCCCC;
+	margin-left: 15px;
+	}
+	
+table.hyo1 th {
+	text-align: left;
+	font-size: 0.95em;
+	border:1px solid #CCCCCC;
+	color: #A28200;
+	padding: 5px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	white-space: nowrap;
+	}
+	
+table.hyo1 td {
+	font-size: 0.8em;
+	line-height:130%;
+	border:1px solid #CCCCCC;
+	padding: 5px;
+	margin-bottom: 20px;
+	margin-right: 30px;
+	color:#333333;
+	}	
+table.p{
+	padding:0;
+	margin:0;}
+
+-->
+</style>
+<!-- InstanceEndEditable -->
+</head>
+<body onLoad="MM_preloadImages('../common/menu_4_o.gif','../common/menu_2_o.gif','../common/menu_3_o.gif','../common/menu_5_o.gif','../common/menu_6_o.gif','../common/menu_7_o.gif')">
+<div id="wrapper">
+	<div id="header"><a name="top"></a><img src="../common/header.jpg" alt="有馬切手文化博物館" width="760" height="107"></div>
+	<table width="760" border="0" cellpadding="0" cellspacing="0" id="main">
+		<tr>
+			<td width="180" align="right" id="menu"><div class="padding"> <a href="../index.html"><img src="../common/menu_1.gif" alt="ホーム" name="menu_1" width="143" height="28" border="0" id="menu_1"></a><a href="../museum/index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('menu_2','','../common/menu_4_o.gif',1)"><img src="../common/menu_4.gif" alt="博物館のご案内" name="menu_2" width="143" height="28" border="0" id="menu_2"></a><a href="../tatemono/index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','../common/menu_2_o.gif',1)"><img src="../common/menu_2.gif" alt="建物の由来" name="Image17" width="143" height="28" border="0"></a><a href="../access/index.html" onMouseOver="MM_swapImage('menu_3','','../common/menu_3_o.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="../common/menu_3.gif" alt="交通のご案内" name="menu_3" width="143" height="28" border="0" id="menu_3"></a><a href="../guide/index.html" onMouseOver="MM_swapImage('menu_5','','../common/menu_5_o.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="../common/menu_5.gif" alt="展示ガイド" name="menu_5" width="143" height="28" border="0" id="menu_5"></a><a href="../links/index.html" onMouseOver="MM_swapImage('menu_6','','../common/menu_6_o.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="../common/menu_6.gif" alt="関連リンク集" name="menu_6" width="143" height="28" border="0" id="menu_6"></a><a href="../contact/index.html" onMouseOver="MM_swapImage('menu_7','','../common/menu_7_o.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="../common/menu_7.gif" alt="お問い合わせ" name="menu_7" width="143" height="28" border="0" id="menu_7" style="margin-bottom:8px"></a><a href="index.html"><img src="../common/bnr_tokubetsu.gif" alt="特別展のご案内" width="152" height="55" border="0"></a>
+					<!--<a href="../waribiki/index.html"><img src="../common/bnr_waribiki.gif" width="152" height="52" border="0" style="margin-bottom:14px"></a>-->
+				</div>
+				<!-- InstanceBeginEditable name="menu_image" --><img src="img/menu_image.jpg" alt="" width="180" height="300"><!-- InstanceEndEditable --></td>
+			<td width="580" id="contents"><!-- InstanceBeginEditable name="contents" -->
+				<div class="padding">
+					<!--<h1 style="margin-bottom:15px;" id="annai"><img src="img/201220/nenmatsu.gif" alt="特別展のご案内" width="550" height="47"></h1>
+			  <div class="end_parag" style="margin-left:10px;">
+						<p>
+				  <p>現在、特別展のお知らせはございません。<br>
+            	次回特別展詳細が決まり次第お知らせいたします。</p> -->
+					<!--平成22年12月29日（水）～平成23年1月3日（月）は通常通り開館。<br>
+       	        <span class="color"><strong>平成23年1月4日（火）は休館</strong></span>となります。
+       	        </p>
+				        </p> -->
+				</div>
+				<h2 style="margin-bottom:15px;" id="tokubetsu"><img src="img/h1_title.gif" alt="特別展のご案内" width="550" height="47"></h2>
+				<div style="margin-left:10px;">
+						<p>現在、特別展のお知らせはございません。<br>
+            	次回特別展詳細が決まり次第お知らせいたします。</p>
+				<!--<h3><img src="img/1108/h2_kansai.gif" alt="関西切手展2011" width="507" height="33"></h3>
+				<h4><img src="img/110411/h2.jpg" alt="出展概要" width="505" height="24"></h4>
+				<br>
+
+				<table width="490" cellpadding="5" cellspacing="1" bgcolor="#604D00" class="hyo" style="margin-top:5px;margin-left:20px;margin-bottom:25px;font-size: 87.5%">
+					<tr align="center" bgcolor="#FFFFFF">
+						<th nowrap style="width:50px;"><div align="center" style="margin-top:2px;">会期</div></th>
+						<td align="left" nowrap><strong>平成23年<span class="font_large">9</span>月<span class="font_large">14</span>日（水） ～ <span class="font_large">26</span>日（月）　</strong>＊9月20日（火）は休館日です。</td>
+					</tr>
+					<tr align="center" bgcolor="#FFFFFF" class="hyo">
+						<th nowrap style="width:50px;"><div align="center" style="margin-top:2px;">会場</div></th>
+						<td align="left" nowrap><strong>切手文化博物館　特別展示室</strong></td>
+					</tr>
+				</table>
+				　				<p>切手収集には様々な方法があります。切手がどの様に造られたか、どの様に使われたかを調べながら集める方法。切手に押された消印に注目し、消印の種類や変化を調べたり、特定の地域に限定してその地域の消印を集めたりする方法。あるいは、世界各国で発行された魚の絵の切手を集める、というように切手に描かれた絵に注目して集める方法。</p>
+				<p>発行された切手を買って、そのままストックブックに入れて保存しておくのも収集の一つですが、これだけでは切手収集の楽しみを十分に感じることは難しいものです。手に入れた一枚の切手について、描かれた絵や発行時期、当時の使われ方などを調べ、自分なりにまとめていくことで切手収集の楽しみはより一層広がります。</p>
+				<p>こうした切手の様々な面に注目し、切手を集めている収集家の方々が自身のコレクションの中から厳選して作り上げた作品を展示する特別展が「関西切手展2011」です。関西の郵趣家9名の方にご協力いただき、コレクションを展示していただきます。</p>
+				<p>「ビードロを吹く娘」など浮世絵を用いた切手を集めた作品や、世界最初の切手「ペニーブラック」を集めた作品、日本で発行された鉄道に関する切手を集めた作品などを展示します。</p>
+				<p>普段気付かない切手収集の楽しみ方を知る良い機会ですので、ぜひご来館ください。</p>
+				<p class="to_top">&nbsp;</p>
+				<p><img src="img/1108/h2_title.jpg" width="505" height="24"></p>
+				<p><img src="img/1108/img01.jpg" width="496" height="337"></p> -->
+				<p class="to_top">&nbsp;</p>
+				<p align="right"><a href="../info/index.html">→「切手で彩る絵はがき」教室のご案内はこちら</a></p>
+				<p align="right"><a href="../guide/index.html">→常設展示物のご案内はこちら</a></p>
+				<p class="to_top"><a href="#top">ページのトップへ↑</a></p>
+				<!-- InstanceEndEditable --></td>
+		</tr>
+	</table>
+	<div id="footer"><img src="../common/footer.gif" alt="Copyright(C) 有馬切手文化博物館. All Rights Reserved." width="760" height="38"></div>
+</div>
+</body>
+<!-- InstanceEnd -->
+</html>

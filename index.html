@@ -1,0 +1,474 @@
+<?php
+session_start();
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>有馬切手文化博物館 ～郵便創業時から現代までの切手を網羅した常設博物館～</title>
+<meta name="keywords" content="有馬切手文化博物館,切手,有馬,有馬温泉,神戸,称徳館,馬事文化博物館,普通切手,記念切手,神戸消印" >
+<meta name="description" content="有馬切手文化博物館は、日本初の本格的な切手の常設博物館です。1871年に始まった日本郵便。そのすべての切手を、ここに展示しています。" >
+<meta http-equiv="imagetoolbar" content="false" >
+<meta name="robots" content="index, follow" >
+<meta http-equiv="Content-Style-Type" content="text/css" >
+<meta http-equiv="Content-Script-Type" content="text/javascript" >
+<script language="JavaScript" src="base/base.js"></script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+		<script type="text/javascript">
+$(function(){
+	$("ul.sub1").hide();
+	$("ul.menu1 li").hover(function(){
+		$("ul:not(:animated)",this).slideDown("fast");
+	},
+	function(){
+		$("ul",this).slideUp("fast");
+	});
+});
+
+//$(function(){
+	//$("ul.sub").hide();
+	//$("ul.menu li").hover(function(){
+		//$("ul:not(:animated)",this).slideDown("fast");
+	//},
+	//function(){
+		//$("ul",this).slideUp("fast");
+	//});
+//});
+
+
+
+
+
+
+		</script>
+
+
+
+<link rel="stylesheet" href="base/base.css" type="text/css" >
+
+
+
+<style type="text/css">
+<!--
+strong {
+	font-size: 1.17em}
+#info {
+	width: 760px;
+	background-image: url(common/body_bg2.gif)}
+#info td {
+	vertical-align: top}
+.tokubetsu {
+	background-image: url(topimg/tokubetsu_middle.gif);
+	background-repeat: repeat-y;
+	padding-left: 60px;
+	padding-right: 20px;
+	font-size: 0.75em;
+	line-height:130%;
+	}
+.no_margin{
+	padding-bottom:0px;
+	margin-bottom:0px;}
+
+	
+.copyright {
+	padding: 6px 0;
+	text-align: center;
+	clear:both;
+}
+-->
+</style>
+<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+<script type="text/JavaScript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="header"><img src="topimg/main_image_top.gif" alt="" width="760" height="17">
+<?php
+if (isset($_GET["preview"]) == true){
+	echo TopPageImage_Pre();
+}
+else{
+	echo TopPageImage();
+}
+?>
+    <img src="topimg/main_image_bottom.gif" width="760" height="13"></div>
+  <div id="info">
+    
+	<div class="topguide">
+<?php
+require_once "php_functions/linkchange_function.php";
+if (isset($_GET["preview"]) == true){
+	echo TopPageMenuForm_Pre();
+}
+else{
+	echo TopPageMenuForm();
+}
+?>
+<!--<a href="museum/index.html"><img src="topimg/menu1_1.gif" onmouseover="this.src='topimg/menu1_1on.gif';" onmouseout="this.src='topimg/menu1_1.gif';" alt="博物館のご案内" class="a"></a> 
+	<a href="guide/index.html"><img src="topimg/menu1_2.gif" onmouseover="this.src='topimg/menu1_2on.gif';" onmouseout="this.src='topimg/menu1_2.gif';" alt="常設展示" class="a"></a>
+	<a href="tokubetsu/index.html"><img src="topimg/menu1_3.gif" onmouseover="this.src='topimg/menu1_3on.gif';" onmouseout="this.src='topimg/menu1_3.gif';" alt="博物館のご案内" class="a"></a>
+	<a href="info/index.html"><img src="topimg/menu1_4.gif" onmouseover="this.src='topimg/menu1_4on.gif';" onmouseout="this.src='topimg/menu1_4.gif';" alt="博物館のご案内" class="a"></a>
+	<a href="tatemono/index.html"><img src="topimg/menu1_5.gif" onmouseover="this.src='topimg/menu1_5on.gif';" onmouseout="this.src='topimg/menu1_5.gif';" alt="博物館のご案内" class="a"></a>
+	<a href="access/index.html"><img src="topimg/menu1_6.gif" onmouseover="this.src='topimg/menu1_6on.gif';" onmouseout="this.src='topimg/menu1_6.gif';" alt="博物館のご案内" class="a"></a>
+	<a href="links/index.html"><img src="topimg/menu1_7.gif" onmouseover="this.src='topimg/menu1_7on.gif';" onmouseout="this.src='topimg/menu1_7.gif';" alt="博物館のご案内" class="a"></a>
+	<a href="contact/index.html"><img src="topimg/menu1_8.gif" onmouseover="this.src='topimg/menu1_8on.gif';" onmouseout="this.src='topimg/menu1_8.gif';" alt="博物館のご案内" class="a"></a>-->
+	</div>
+
+         
+<div class="yotei">
+
+<div class="calendar">
+
+<!--
+<div class="year1">
+
+		<div class="year1_left">2012年
+		<span class="month1">10</span>月</div>
+		<div class="year1_right">
+		<span class="link1"><a href="museum/index.html">３ヶ月表示</a></span></div>		
+</div>
+		
+<div class="column_sun1"><div class="calendar_week1">日</div></div>
+<div class="column_week1"><div class="calendar_week1">月</div></div>
+<div class="column_week1"><div class="calendar_week1">火</div></div>
+<div class="column_week1"><div class="calendar_week1">水</div></div>
+<div class="column_week1"><div class="calendar_week1">木</div></div>
+<div class="column_week1"><div class="calendar_week1">金</div></div>
+<div class="column_week1"><div class="calendar_week1">土</div></div>
+<div class="column_first1" style="background-image:url('topimg/krn_5-45.gif')"><div class='calendar_day1'>31</div></div>
+<div class="column_other1"><div class='calendar_day1'>2</div></div>
+<div class="column_other1"><div class='calendar_day1'>3</div></div>
+<div class="column_other1"><div class='calendar_day1'>4</div></div>
+<div class="column_other1"><div class='calendar_day1'>5</div></div>
+<div class="column_other1 back6_1"><div class='calendar_day1'>6</div></div>
+<div class="column_other1"><div class='calendar_day1'>7</div></div>
+<div class="column_first1"><div class='calendar_day1'>8</div></div>
+<div class="column_other1"><div class='calendar_day1'>9</div></div>
+<div class="column_other1"><div class='calendar_day1'>10</div></div>
+<div class="column_other1"><div class='calendar_day1'>11</div></div>
+
+<div class="column_other1"><div class='calendar_day1'>
+
+	<ul class="menu1">
+				<li><a href="#">12</a>
+					<ul class="sub1">
+						<li><a href="http://www.kitte-museum-arima.jp/tokubetsu/index.html">特別展</a></li>
+						<li><a href="http://www.kitte-museum-arima.jp/info/index.html">絵はがき教室</a></li>
+
+					</ul>
+				</li></ul>
+</div></div>
+
+
+<div class="column_other1"><div class='calendar_day1'>13</div></div>
+<div class="column_other1"><div class='calendar_day1'>
+
+	<ul class="menu1">
+				<li><a href="#">14</a>
+					<ul class="sub1">
+						<li><a href="http://www.kitte-museum-arima.jp/tokubetsu/index.html">特別展</a></li>
+						<li><a href="http://www.kitte-museum-arima.jp/info/index.html">絵はがき教室</a></li>
+
+					</ul>
+				</li></ul>
+
+
+</div></div>
+<div class="column_first1"><div class='calendar_day1'>15</div></div>
+<div class="column_other1"><div class='calendar_day1'>16</div></div>
+<div class="column_other1"><div class='calendar_day1'>17</div></div>
+<div class="column_other1"><div class='calendar_day1'>18</div></div>
+<div class="column_other1"><div class='calendar_day1'>19</div></div>
+<div class="column_other1"><div class='calendar_day1'>20</div></div>
+<div class="column_other1"><div class='calendar_day1'>21</div></div>
+<div class="column_first1"><div class='calendar_day1'>22</div></div>
+<div class="column_other1"><div class='calendar_day1'>23</div></div>
+<div class="column_other1"><div class='calendar_day1'>24</div></div>
+<div class="column_other1"><div class='calendar_day1'>25</div></div>
+<div class="column_other1"><div class='calendar_day1'>26</div></div>
+<div class="column_other1" style="width: 45px; height: 45px"><div class='calendar_day1'>27</div></div>
+<div class="column_other1"><div class='calendar_day1'>28</div></div>
+<div class="column_first1"><div class='calendar_day1'>29</div></div>
+<div class="column_other1"><div class='calendar_day1'>30</div></div>
+<div class="column_other1"><div class='calendar_day1'>31</div></div>
+<div class="column_other1"></div>
+<div class="column_other1"></div>
+<div class="column_other1"></div>
+<div class="column_other1"></div>
+
+-->
+
+<?php
+	require_once "php_functions/calendar_functions.php";
+
+if (isset($_GET["preview"]) == true)
+{
+	if ($_GET["preview"] == "gyoji_preview")
+	{
+		$param = array("gyoji", $_SESSION["check_gyojikubun"], $_SESSION["check_anchor"], 
+						$_SESSION["check_kaishibi"], $_SESSION["check_shuryobi"], $_SESSION["check_k_cal"]);
+		echo calendarCreate(1, $param);
+	}
+	else if ($_GET["preview"] == "kyukambi_preview")
+	{
+		$param = array("kyukambi", $_SESSION["check_hizuke"]);
+		echo calendarCreate(1, $param);
+	}
+}
+else
+{
+	echo calendarCreate(1);
+}
+?>
+
+
+
+<div class="cld_setsumei">
+	<img src="common/callender_setsumei.png"></div>
+
+</div><!-- calendar END -->
+
+
+     	<div class="shinchaku"> 
+    <table>
+     <tr>   
+        <td style="width: 377px; padding-top:10px"><div><img src="topimg/tokubetsu_top.gif" alt="新着情報" border="0"></div>
+          <div class="tokubetsu">
+          	<div style="width:265px; height:400px;overflow:auto; word-wrap: break-word; word-break: break-all;">
+          	
+<?php
+require_once "../maintenance/php_functions/common_functions.php";
+
+if (isset($_GET["preview"]) == true)
+{
+	$gyojikubun =  $_POST["gyojikubun"];										//行事区分
+	$title = $_SESSION["check_title"];												//タイトル
+	$title = nl2br($title);														//タイトル改行表示
+	$comment = $_SESSION["check_comment"];											//コメント
+	$comment = nl2br($comment);													//コメント改行表示
+	$anchor = $_POST["anchor"];													//アンカー
+	$kaishibi = $_POST["kaishibi"];												//期間の開始日
+	$shuryobi = $_POST["shuryobi"];												//期間の終了日
+	$k_new = $_SESSION["check_k_new"];												//新着情報に公開
+}
+
+$matsu = "(SELECT DATE_TRUNC('month',now() + '3 months') + '-1 days')"; 
+if (dbConnect($dbconn) == false)
+{
+	//エラー処理
+	exit(dbErrorMessageCreate("DB接続に失敗しました。"));
+}
+$sql = "SELECT * FROM kyukambi WHERE hizuke between(current_date)and $matsu order by hizuke;";
+//echo $sql. "<br>";
+
+$result = pg_query($dbconn, $sql);
+if ($result == false)
+{
+	//エラー処理
+	exit(dbErrorMessageCreate("DB抽出に失敗しました。", $sql, $dbconn));
+}
+
+//echo $sql;
+//echo "★";
+//		echo "データ件数：".pg_num_rows($result)."<br>\n";
+
+while ($DATA = pg_fetch_object($result)) {
+	if($DATA->shinchaku_kokai == 't'){
+		if($DATA->id == $_SESSION["check_id"] && isset($_GET["preview"])){
+			if($k_new == 1){
+				echo "<span class='color'><strong>" .$title. "</strong></span><br>";
+				echo $comment. "<br><br>";
+			}
+		}
+		else{
+			$title_br = nl2br($DATA->title);
+			$comment_br = nl2br($DATA->comment);
+			echo "<span class='color'><strong>" .$title_br. "</strong></span><br>";
+			echo $comment_br. "<br><br>";
+		}
+	}
+	else{
+		if($DATA->id == $_SESSION["check_id"] && isset($_GET["preview"]) && $k_new == 1){
+			echo "<span class='color'><strong>" .$title. "</strong></span><br>";
+			echo $comment. "<br><br>";
+		}
+	}
+}
+
+if ($_GET["preview"] == "kyukambi_preview" && $k_new == 1 && $_SESSION["check_id"] == "")
+{
+	echo "<span class='color'><strong>" .$title. "</strong></span><br>";
+	echo $comment. "<br><br>";
+}
+
+$sql = "SELECT * FROM gyoji WHERE ((kaishi_bi between(current_date) and ".$matsu.") or (shuryo_bi between(current_date)and ".$matsu.") or 
+(kaishi_bi <= ".$matsu." and shuryo_bi >= current_date)) order by hyoji_yusendo desc;";
+//echo $sql. "<br>";
+
+$result = pg_query($dbconn, $sql);
+if ($result == false)
+{
+	//エラー処理
+	exit(dbErrorMessageCreate("DB抽出に失敗しました。", $sql, $dbconn));
+}
+
+if (isset($_GET["preview"]) == true){
+	while ($DATA = pg_fetch_object($result)) {
+		if($DATA->shinchaku_kokai == 't'){
+			if($DATA->id == $_SESSION["check_id"]){
+				if($k_new == 1){
+					echo "<a href = 'javascript:void(0);'><strong>".$title."</strong></a><br>";
+					echo $comment. "<br><br>";
+				}
+			}
+			else{
+				$title_br = nl2br($DATA->title);
+				$comment_br = nl2br($DATA->comment);
+				echo  "<a href = 'javascript:void(0);'><strong>".$title_br."</strong></a><br>";
+				echo $comment_br. "<br><br>";
+			}
+		}
+		else{
+			if($DATA->id == $_SESSION["check_id"] && $k_new == 1){
+				echo "<a href = 'javascript:void(0);'><strong>".$title."</strong></a><br>";
+				echo $comment. "<br><br>";
+			}
+		}
+	}
+}
+else{
+	while ($DATA = pg_fetch_object($result)) {
+		if($DATA->shinchaku_kokai == 't'){
+			$title_br = nl2br($DATA->title);
+			$comment_br = nl2br($DATA->comment);
+			if ($DATA->gyoji_kubun == 1 || $DATA->gyoji_kubun == 3){ 
+			echo  "<a href = 'tokubetsu/index.html#".$DATA->danraku_mei."'><strong>".$title_br."</strong></a><br>";
+			echo $comment_br. "<br><br>";
+			}
+			else if ($DATA->gyoji_kubun == 2){
+			echo  "<a href = 'info/index.html'><strong>".$title_br."</strong></a><br>";
+			echo $comment_br. "<br><br>";
+			}
+		}
+	}
+}
+
+if ($_GET["preview"] == "gyoji_preview" && $k_new == 1 && $_SESSION["check_id"] == "")
+{
+	echo "<a href = 'javascript:void(0);'><strong>".$title."</strong></a><br>";
+	echo $comment. "<br><br>";
+}
+
+
+pg_close($dbconn);
+
+?>
+
+			
+
+</div>
+       
+          </div>
+    
+          
+          <div>
+			  <img src="topimg/tokubetsu_bottom.gif"></div></td>
+      </tr>
+    </table>
+    </div><!-- sinchaku END -->
+    
+   </div>
+
+    <div class="copyright"><img src="topimg/copyright.gif" alt="Copyright(C) 有馬切手博物館. All Rights Reserved." width="251" height="11"></div>
+	</div><!-- yotei終了 -->  
+
+<table width="760" border="0" align="center" cellpadding="0" cellspacing="5">
+  <tr>
+    <td><font size="1">※ムービーをご覧いただくにはFLASH
+      PLAYERが必要です。<br>
+      お持ちでない方はお手数ですが、右のバナーをクリックし、ダウンロードしてご覧ください。<br>
+      ※当ホームページはJavaScriptを使用しています。<br>
+      お使いのブラウザでJavaScriptが無効になっていると、機能が正確に動作しません。<br>
+      すべての機能を正常にご利用いただくためには、JavaScriptの設定を有効にしてください。</font></td>
+    <td align="right">
+<?php
+require_once "php_functions/linkchange_function.php";
+if (isset($_GET["preview"]) == true){
+	echo FlashLink_Pre();
+}
+else{
+	echo FlashLink();
+}
+?>
+<!--  <a href="http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash&Lang=Japanese" target="_blank"><img src="topimg/get_flash_player.gif" alt="FLASH PLAYERをダウンロード" width="88" height="31" border="0"></a>-->
+   </td>
+  </tr>
+</table>
+<map name="menu_1map" id="menu_1map">
+  <area shape="rect" coords="10,6,166,35" href="museum/index.html" onMouseOver="MM_swapImage('menu_1','','topimg/menu_1_o.gif',1)" onMouseOut="MM_swapImgRestore()">
+</map>
+<map name="menu_3map" id="menu_3map">
+  <area shape="rect" coords="58,2,213,30" href="access/index.html" onMouseOver="MM_swapImage('menu_3','','topimg/menu_3_o.gif',1)" onMouseOut="MM_swapImgRestore()">
+</map>
+<map name="menu_4map" id="menu_4map">
+  <area shape="rect" coords="12,6,167,35" href="guide/index.html" onMouseOver="MM_swapImage('menu_4','','topimg/menu_4_o.gif',1)" onMouseOut="MM_swapImgRestore()">
+</map>
+<map name="menu_5map" id="menu_5map">
+  <area shape="rect" coords="10,1,163,28" href="links/index.html" onMouseOver="MM_swapImage('menu_5','','topimg/menu_5_o.gif',1)" onMouseOut="MM_swapImgRestore()">
+</map>
+</body>
+</html>
+
+<?php
+
+/*********************************************
+* 画　面：トップページ
+* 機　能：イメージ画像表示
+* 状　態：通常画面時
+*********************************************/
+
+function TopPageImage(){
+
+$tag = <<< __EOS__
+<script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0','width','760','height','495','src','top','quality','high','pluginspage','http://www.macromedia.com/go/getflashplayer','movie','top' ); //end AC code
+</script>
+<noscript>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="760" height="495">
+<param name="movie" value="top.swf">
+<param name="quality" value="high">
+<embed src="top.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="760" height="495"></embed>
+</object>
+</noscript>
+__EOS__;
+
+return $tag;
+
+}
+
+/*********************************************
+* 画　面：トップページ
+* 機　能：イメージ画像表示
+* 状　態：プレビュー画面時
+*********************************************/
+
+function TopPageImage_Pre(){
+
+$tag = <<< __EOS__
+<img src="topimg/main_image_pre.jpg" alt="" width="760" height="500">
+__EOS__;
+
+return $tag;
+
+}
+
+?>

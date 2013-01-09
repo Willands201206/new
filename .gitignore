@@ -1,0 +1,23 @@
+# ファイル名が「.db」で終わるファイルを無視する(Thumbs.db等）
+*.db
+/common/*.db
+Thumbs.db
+/topimg/_notes
+Thumbs.db
+Thumbs.db
+Thumbs.db
+Thumbs.db
+Thumbs.db
+Thumbs.db
+_notes
+/tokubetsu/img/_notes
+_notes
+_notes
+_notes
+_notes
+_notes
+_notes
+_notes
+_notes
+.settings
+README.md

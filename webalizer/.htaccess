@@ -1,0 +1,5 @@
+AuthUserFile /home/kitte-museum-arima-jp/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Enter YourPassword"
+AuthType Basic
+require  user kittem

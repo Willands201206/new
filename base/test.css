@@ -1,0 +1,378 @@
+・topguide { 
+padding: 3px 30px 3px 30px;
+
+
+
+}
+.a{
+	padding: 7px;
+	border:0;
+}
+
+.yotei {
+width: 760px;
+line-height:5px;
+padding-left:30px;
+
+}
+
+.back1_1 {
+background-image:url('../topimg/krn_1-45.gif');
+
+}
+              
+.back2_1 {
+background-image:url('../topimg/krn_2-45.gif');
+
+}
+.back3_1 {
+background-image:url('../topimg/krn_4-45.gif');
+
+}
+
+.back4_1 {
+background-image:url('../topimg/krn_3-45.gif');
+
+}
+
+.back5_1 {
+background-image:url('../topimg/krn_6-45.gif');
+
+}
+
+.back6_1 {
+background-image:url('../topimg/krn_5-45.gif');
+
+}
+.back7 {
+background-color:white
+
+}
+
+.back1_2 {
+background-image:url('../common/krn_1-55.gif');
+
+}
+              
+.back2_2 {
+background-image:url('../common/krn_2-55.gif');
+
+}
+.back3_2 {
+background-image:url('../common/krn_3-55.gif');
+
+}
+
+.back4_2 {
+background-image:url('../common/krn_4-55.gif');
+
+}
+
+.back5_2 {
+background-image:url('../common/krn_6-55.gif');
+
+}
+
+.back6_2 {
+background-image:url('../common/krn_5-55.gif');
+
+}
+
+.back8_2 {
+background-image:url('../common/krn_8-55.gif');
+
+}
+
+.back9_2 {
+background-image:url('../common/krn_9-55.gif');
+
+}
+//休館日/特別展/絵はがき/イベント/特別展＆絵はがき/特別展＆イベント/なし（なしは共通）
+
+
+.sotowaku1 {
+
+width: 347px;
+padding-left:30px;
+}
+
+
+.year1{
+padding-left: 60px;
+width: 330px;
+height:auto
+	
+}
+
+.month1{
+font-size:x-large
+	}
+
+.link1{
+	margin-left:100px;
+}
+
+.column_other1 {
+
+}
+
+.column_first1 {
+clear:both;
+
+}
+
+.column_other1, .column_first1 {
+width: 45px;
+height:45px;
+border: 1px solid;
+float:left;
+
+}
+
+
+
+
+.column_week1 {
+
+}
+
+
+.column_sun1 {
+clear:both;
+
+}
+
+.column_week1, .column_sun1 {
+float:left;
+width: 45px;
+height: 20px;
+border: 1px solid;
+text-align: center;
+vertical-align: bottom;
+
+}
+
+
+*{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+
+
+ul.menu1 li{
+	float:left;
+	width:44px;
+	height:44px;
+	//background:url("images/btn.png");
+//background-color:powderblue;
+	position:relative;
+}
+ul.menu1 li a{
+	display:block;
+	width:100%;
+	height:100%;
+	
+	
+	/*font-weight:bold;*/
+	color:black;
+	text-decoration:none;
+}
+ul.menu1 li a:hover{
+	//background:url("images/btn_over.png");
+}
+ul.menu1 li ul.sub1{
+	//width:300px;
+	position:absolute;
+}
+
+ul.sub1 li{
+	width:110px;
+	height:20px;
+	border:3px solid ;
+	//margin-bottom:-3px;
+	border-left-color:#99cc99;
+	border-top-color:#99cc99;
+	border-bottom-color:#999966;	
+	border-right-color:#999966;
+	background-color:#99cc00;
+}
+
+ul.sub1 li a{
+	
+	color:white;
+}
+
+
+a.gyoji{
+height:20px;
+position:absolute;
+top:50%;
+}
+
+
+
+ul.menu1{
+	zoom:1;
+}
+ul.menu1:after {
+	height:0;
+	visibility:hidden;
+	content:".";
+	display:block;
+	clear:both;
+}
+
+.icon1{
+height:30px;
+padding-left:30px;	
+font-weight: bold;
+font-size: large;
+vertical-align: middle;
+float: left;
+width: 50px;
+clear: left;
+
+}
+
+.guide1{
+	line-height:30px;
+	vertical-align:middle;
+	float:left;
+	width:auto;
+	
+}
+
+
+
+
+
+
+.year2{
+
+	padding-left: 150px;
+	width: 330px;
+	font-weight: bold;
+	font-size: large;
+}
+.month2{
+font-size:x-large
+	}
+
+
+
+.sotowaku2 {
+height:320px;
+width: 505px;
+
+
+
+}
+
+
+
+.column_other2 {
+
+}
+
+.column_first2 {
+clear:both;
+
+}
+
+.column_other2,  .column_first2 {
+float: left;
+width: 55px;
+height:55px;
+border: 1px solid;
+
+}
+
+.column_week2 {
+
+}
+
+
+.column_sun2 {
+clear:both;
+
+}
+
+.column_week2, .column_sun2 {
+float:left;
+width: 55px;
+height: 20px;
+text-align: center;
+vertical-align: bottom;
+
+}
+
+ul.menu2 li{
+	float:left;
+	width:54px;
+	height:54px;
+	position:relative;
+}
+ul.menu2 li a{
+	display:block;
+	font-weight:bold;
+	color:black;
+	text-decoration:none;
+}
+ul.menu2 li a:hover{
+	//background:url("images/btn_over.png");
+}
+ul.menu2 li ul.sub2{
+	position:absolute;
+}
+
+ul.sub2 li{
+	width:110px;
+	height:25px;
+	border:3px solid ;
+	margin-bottom:-3px;
+	border-color:limegreen;
+	background-color:yellowgreen;
+}
+
+ul.sub2 li a{
+	color:white;
+	
+}
+
+
+
+ul.menu2{
+	zoom:1;
+}
+ul.menu2:after2 {
+	height:0;
+	visibility:hidden;
+	content:".";
+	display:block;
+	clear:both;
+
+}
+.icon2{
+	width:30px;
+	float:left;
+	margin-left;40px;
+
+}
+
+.line1, .line2{
+float:left;
+margin-left:50px;
+
+}
+
+.line2{
+	clear:left;
+}
+
+
+
+
+
+
